@@ -6,4 +6,5 @@ Inspired by Allison Parrish's "Understanding word vectors for, like, actual poet
 
 ## To Do
 Build methods to save the word embeddings to disk. 
+
 Build methods to access the word embeddings.
