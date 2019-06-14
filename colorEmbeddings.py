@@ -146,8 +146,6 @@ def backPropogation (error, hidden_layer, target_word, weight1, weight2):
 	weight1 = weight1 - (wordVecSettings["learning_rate"] * derivative_weight1)
 	weight2 = weight2 - (wordVecSettings["learning_rate"] * derivative_weight2)
 
-
-
 def train (colors, training_data):
 	weight1 = numpy.random.uniform (-1, 1, (len (colors), wordVecSettings["dimension"]))
 	weight2 = numpy.random.uniform (-1, 1, (wordVecSettings["dimension"], len (colors)))
