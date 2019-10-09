@@ -8,3 +8,5 @@ Inspired by Allison Parrish's "Understanding word vectors for, like, actual poet
 Build methods to save the word embeddings to disk. 
 
 Build methods to access the word embeddings.
+
+Build displays allowing a wider array of colors.
